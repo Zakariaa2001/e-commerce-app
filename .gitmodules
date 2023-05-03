@@ -1,0 +1,6 @@
+[submodule "e-commerce-app"]
+	path = e-commerce-app
+	url = https://github.com/Zakariaa2001/e-commerce-app.git
+[submodule "php_dbshop"]
+	path = php_dbshop
+	url = https://github.com/Zakariaa2001/e-commerce-app.git
