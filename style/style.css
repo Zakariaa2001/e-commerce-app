@@ -1,0 +1,88 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: white;
+}
+
+nav ul li a {
+    color: black !important;
+}
+
+header section {
+    padding: 0px;
+}
+
+.links {
+    margin-left: 500px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: blue; */
+    z-index: 1000;
+}
+
+body .navbar {
+    max-height: 80px;
+}
+
+@media (max-width: 990px) {
+    .navbar .collapse {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        z-index: 4;
+
+    }
+}
+
+
+.navbar .navbar-nav li a:hover {
+    color: #0027ff !important;
+}
+
+.navbar .container .navbar-collapse button {
+    border-color: #0027ff;
+}
+
+.navbar .container .navbar-collapse button.cart i,
+.navbar .container .navbar-collapse button.inscription i {
+    color: #0027ff;
+}
+
+.navbar .container .navbar-collapse button.cart:hover i,
+.navbar .container .navbar-collapse button.inscription:hover i {
+    color: white;
+}
+
+.navbar .container .navbar-collapse button.cart:hover,
+.navbar .container .navbar-collapse button.inscription:hover {
+    background-color: #0027ff;
+}
+
+
+.navbar .collapse button:hover a,
+.navbar .collapse button:hover a:hover {
+    color: white !important;
+}
+
+.navbar .container .navbar-collapse button.cart a span {
+    background-color: #0027ff !important;
+}
+
+.navbar .container .navbar-collapse button.cart:hover a span {
+    background-color: white !important;
+    color: #0027ff !important;
+}

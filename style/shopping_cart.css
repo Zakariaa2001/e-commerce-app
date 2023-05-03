@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #d3c4c48f !important;
+    position: relative;
+}
+
+.box .sub-qty {
+    color: #978080;
+}
+
+.box .image img {
+    height: 200px;
+    width: 150;
+}
+
+.box .text .qt button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.grand_total {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

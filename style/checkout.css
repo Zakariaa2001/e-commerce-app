@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #d3c4c48f !important;
+    position: relative;
+}
+
+.summary form {
+    background-color: #cfc4c442;
+}
+
+.summary form label:after {
+    content: "*";
+    margin-left: 4px;
+    color: red;
+}
+
+.summary form input[type="submit"] {
+    position: relative;
+    left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 10px;
+}
+
+.grand_total {
+    background-color: #cfc4c442;
+    padding: 5px;
+    border-radius: 10px;
+}

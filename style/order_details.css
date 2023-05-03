@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #d3c4c48f !important;
+    position: relative;
+}
+
+.order_details_content {
+    background-color: #cfc4c442;
+    border-radius: 5px;
+}
+
+.order_details .adress p {
+    margin-bottom: 26px;
+    margin-top: 27px;
+}
+
+.order_details .image img {
+    height: 200px;
+    width: 150;
+
+}
+
+.order_details .adress p:nth-child(2)::before {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+}
+
+
+.order_details .adress p:nth-child(4)::before {
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+
+}
+
+
+
+.order_details p.time {
+    background-color: #212529;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    color: #03a9f4;
+
+
+}
+
+.order_details .grand_total {
+    background-color: #212529;
+    padding: 0px 5px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.order_details p.time::before {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+}

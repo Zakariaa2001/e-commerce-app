@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #d3c4c48f !important;
+    position: relative;
+}
+
+.my_orders .box {
+    box-shadow: -1px 5px 7px #d9c0c0;
+    cursor: pointer;
+    /* height: 357px;
+    width: 216px; */
+
+}
+
+.my_orders .box .image img {
+    height: 200px;
+    width: 150;
+
+}
+
+.my_orders .box:hover p.time {
+    background-color: #212529;
+
+}
+
+.my_orders .box p.time {
+    background-color: #e0e5e7;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    color: #03a9f4;
+
+}
+
+.my_orders .box p.time::before {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    color: blue;
+    padding-right: 5px;
+    color: #03a9f4;
+
+}
+
+.my_orders .box p.price {
+    margin-top: -5px;
+
+}
